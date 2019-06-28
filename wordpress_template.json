@@ -141,26 +141,6 @@
             }
         },
         {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_webapp_test50_name'), '/6e45bdfc1ce96693ebadb83277c3b6fba208936f')]",
-            "location": "UK South",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_webapp_test50_name'))]"
-            ],
-            "properties": {
-                "id": "6e45bdfc1ce96693ebadb83277c3b6fba208936f",
-                "status": 4,
-                "author_email": "zhangjianfeng73@hotmail.com",
-                "author": "Leonzhang77",
-                "deployer": "GitHub",
-                "message": "Merge pull request #75 from LeonZhang77/master\n\nNew Version of wordpress, version is 5.2.1",
-                "start_time": "2019-06-20T08:45:02.9492143Z",
-                "end_time": "2019-06-20T08:46:03.1606216Z",
-                "active": true
-            }
-        },
-        {
             "type": "Microsoft.Web/sites/hostNameBindings",
             "apiVersion": "2016-08-01",
             "name": "[concat(parameters('sites_webapp_test50_name'), '/test50.wearebwsubmissions.com')]",
